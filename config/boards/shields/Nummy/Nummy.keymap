@@ -16,12 +16,33 @@
         default_layer {
             bindings = <
                 
-                &kp N1 &studio_unlock &bootloader
+                &kp K_NEXT   &mo BLE_Layer  &kp K_CALC        &kp C_PP
                 
-                &kp N3 &kp N4 &bt BT_CLR
+                &kp NUMLOCK  &kp SLASH      &kp KP_ASTERISK   &kp MINUS
 
+                &kp KP_7     &kp KP_8       &kp KP_9          &none
+
+                &kp KP_4     &kp KP_5       &kp KP_6          &kp KP_PLUS
+
+                &kp KP_1     &kp KP_2       &kp KP_3          &none
+
+                &kp KP_0     &kp KP_DOT     &none             &kp KP_ENTER
             >;
             sensor-bindings = <&rotary C_VOL_UP C_VOL_DN>;
+        };
+
+        BLE_Layer {
+            bindings = <
+                &trans        &trans        &trans        &trans
+
+                &trans        &trans        &trans        &bt BT_CLR
+
+                &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans
+
+                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
+
+                &trans        &trans        &trans        &studio_unlock
+            >;
         };
     };
 };
