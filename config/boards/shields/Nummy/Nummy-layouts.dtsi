@@ -25,7 +25,7 @@
             , <&key_physical_attrs 100  100   0     200     0     0     0>
             , <&key_physical_attrs 100  100  100    200     0     0     0>
             , <&key_physical_attrs 100  100  200    200     0     0     0>
-            , <&key_physical_attrs 100  100  200    200     0     0     0> // //Place Holder
+            , <&key_physical_attrs 0  0  0    0     0     0     0> // //Place Holder
 
             // Row 3
             , <&key_physical_attrs 100  100   0     300     0     0     0>
@@ -37,11 +37,11 @@
             , <&key_physical_attrs 100  100   0     400     0     0     0>
             , <&key_physical_attrs 100  100  100    400     0     0     0>
             , <&key_physical_attrs 100  100  200    400     0     0     0>
-            , <&key_physical_attrs 100  100  200    400     0     0     0> //Place Holder
+            , <&key_physical_attrs 0  0  0    0     0     0     0> //Place Holder
 
             // Row 5
             , <&key_physical_attrs 200  100   0     500     0     0     0>
-            , <&key_physical_attrs 200  100   0     500     0     0     0> // Placeholder
+            , <&key_physical_attrs  0    0    0     0       0     0     0> // Placeholder
             , <&key_physical_attrs 100  100  200    500     0     0     0>
             , <&key_physical_attrs 100  200  300    400     0     0     0>
             ;
