@@ -19,7 +19,7 @@
         default_layer {
             bindings = <
                 
-                &studio_unlock  &mo BLE_Layer  &kp N7      &kp N7
+                &studio_unlock  &mo BLE_Layer  &kp N7      &kp K_CALC
                 
                 &kp LNLCK          &kp SLASH         &kp ASTERISK      &kp MINUS
 
