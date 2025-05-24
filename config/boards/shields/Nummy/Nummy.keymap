@@ -21,7 +21,7 @@
                 
                 &studio_unlock  &mo BLE_Layer  &kp N7      &kp N7
                 
-                &kp N7          &kp SLASH         &kp ASTERISK      &kp MINUS
+                &kp LNLCK          &kp SLASH         &kp ASTERISK      &kp MINUS
 
                 &kp N7          &kp N8         &kp N9      &none
   
